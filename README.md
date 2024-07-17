@@ -1,2 +1,2 @@
 # recipe-page.github.io
-recipe page
+recipe page for FrontEnd Mentor
