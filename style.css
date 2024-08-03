@@ -1,43 +1,77 @@
 body{
     background-color: hsl(30, 54%, 90%);
     font-size: 16px;
+    font-family: "Outfit";
+  }
 
+  hr
+  {
+    border:solid 1px rgb(240, 234, 234);
+    width: 96%;
+    height: 1px;
+  }
+  
+  .lower, .header{
+    font-family: Young Serif;
+    font-weight: 400;
   }
   
   img{
-    padding: 1.5rem;
-    border-radius: 40px;
-    height: 14rem;
-    width: 27rem;
-   
+    border-radius: 25px;
+    height: 20rem;
+    width: 34.6rem;
   }
+
+  ol li::marker {
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
 
   .recipe{
     display:flex;
     flex-direction:column;
-    height: 90rem;
-    width: 30rem;
+    height: 115rem;
+    width: 35rem;
     background-color: hsl(0, 0%, 100%);
     border-radius: 25px;
-    
+    margin: auto;
+    padding: 2rem;
   }
 
   .prep{
     background-color: hsl(330, 100%, 98%);
-    
     height: 15rem;
-    width: 25rem;
-    margin-left: 35px;
+    width: 27rem;
+    margin:auto;
+    border-radius: 25px;
+    padding-left:2rem;
   }
   
   #time{
     color: hsl(332, 51%, 32%);
-  }
-
-  .table{
-    width: 100%;
+    font-weight: 600;
   }
 
   #info{
     text-align: end;
   }
+
+  .lower{
+    color: hsl(332, 51%, 32%);
+  }
+ 
+  .left{
+    float: left; 
+    width:50%;
+  }
+  
+  .right{
+    color:hsl(332, 51%, 32%);
+    font-weight: 600;
+    height: 20rem;
+  }
+  
+ .smol{
+    width:200%;
+ }
+ 
